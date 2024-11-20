@@ -1,0 +1,12 @@
+ '''
+        if 'thanks' or 'thank you' or 'grazie' in prompt.lower(): 
+            #decided to only check for thanks and give appropriate response - not reset chat history
+            with st.chat_message("user"):
+                st.markdown(prompt)
+            with st.chat_message("assistant"):
+                st.markdown("welcome!")
+            #st.session_state.chat_history = []  Clear chat history
+            st.session_state.messages.append({"role": "user", "content": prompt})
+            st.session_state.messages.append({"role": "assistant", "content": "welcome!"})
+        else: 
+        '''
