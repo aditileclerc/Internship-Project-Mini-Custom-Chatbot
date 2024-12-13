@@ -6,19 +6,17 @@ This project is a custom chatbot implementation using LangChain and OpenAI GPT m
 
 Graph-Based Retrieval-Augmented Generation (RAG):
 
-Combines a retrieval system with OpenAI GPT to enhance responses by using contextual data.
-Implements an effective vector store for content-based searches.
+- Combines a retrieval system with OpenAI GPT to enhance responses by using contextual data.
+- Implements an effective vector store for content-based searches.
 
 
 Vector Database Integration:
 
-Uses FAISS (Facebook AI Similarity Search) to store and query embeddings.
-
-Demonstrates a functional database for vectorized document chunks.
+- Uses FAISS (Facebook AI Similarity Search) to store and query embeddings.
+- Demonstrates a functional database for vectorized document chunks.
 
 
 Dynamic Query Processing:
 
-Implements embeddings with OpenAI API.
-
-Provides utilities to visualize vector store content.
+- Implements embeddings with OpenAI API.
+- Provides utilities to visualize vector store content.
